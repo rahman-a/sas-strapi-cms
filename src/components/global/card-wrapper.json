@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_card_wrappers",
+  "info": {
+    "displayName": "Cards-Wrapper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.card"
+    }
+  }
+}

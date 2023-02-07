@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_social_blocks",
+  "info": {
+    "displayName": "SocialBlock"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.social"
+    }
+  }
+}

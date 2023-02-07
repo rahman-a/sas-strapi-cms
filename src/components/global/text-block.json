@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_global_text_blocks",
+  "info": {
+    "displayName": "Text Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.quote"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.video"
+    }
+  }
+}

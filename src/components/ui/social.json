@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_socials",
+  "info": {
+    "displayName": "social"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "media": {
+      "type": "enumeration",
+      "enum": [
+        "Linkedin",
+        "Twitter",
+        "Facebook",
+        "Youtube",
+        "Instagram"
+      ]
+    }
+  }
+}

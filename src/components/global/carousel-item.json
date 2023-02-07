@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_carousel_items",
+  "info": {
+    "displayName": "Carousel Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_links",
+  "info": {
+    "displayName": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.sublink"
+    }
+  }
+}

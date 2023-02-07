@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_header_panel",
+  "info": {
+    "displayName": "panel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.navigation"
+    },
+    "featured": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.featured"
+    }
+  }
+}

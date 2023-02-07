@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_carousels",
+  "info": {
+    "displayName": "Carousel"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.carousel-item",
+      "max": 3
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_sublinks",
+  "info": {
+    "displayName": "sublink"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

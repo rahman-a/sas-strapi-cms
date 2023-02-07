@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_videos",
+  "info": {
+    "displayName": "Video"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

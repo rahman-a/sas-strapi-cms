@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "issues",
+  "info": {
+    "singularName": "issue",
+    "pluralName": "issues",
+    "displayName": "Issue"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.hero-section"
+    },
+    "Featured": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.card-wrapper"
+    },
+    "TextBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.text-block"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.navigation"
+    },
+    "announcementFragment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.text-block"
+    }
+  }
+}

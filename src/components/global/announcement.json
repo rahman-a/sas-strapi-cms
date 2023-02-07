@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_announcements",
+  "info": {
+    "displayName": "Announcement"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

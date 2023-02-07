@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_hero_sections",
+  "info": {
+    "displayName": "Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "shorturl": {
+      "type": "string",
+      "regex": "^(http(s):\\/\\/.)[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)$"
+    }
+  }
+}
