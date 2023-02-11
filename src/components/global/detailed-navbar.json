@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_global_detailed_navbars",
+  "info": {
+    "displayName": "DetailedNavbar"
+  },
+  "options": {},
+  "attributes": {
+    "panels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.detailed-navbar-item"
+    }
+  }
+}

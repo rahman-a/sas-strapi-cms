@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_tabbed_navbars",
+  "info": {
+    "displayName": "TabbedNavbar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.tabbed-navbar-item"
+    }
+  }
+}

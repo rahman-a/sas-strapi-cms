@@ -1,10 +1,10 @@
 {
-  "kind": "singleType",
-  "collectionName": "services",
+  "kind": "collectionType",
+  "collectionName": "services_pages",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Service",
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "ServicesPage",
     "description": ""
   },
   "options": {
@@ -42,16 +42,6 @@
         }
       }
     },
-    "Featured": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.card-wrapper",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "TextBlock": {
       "type": "component",
       "repeatable": false,
@@ -62,17 +52,17 @@
         }
       }
     },
-    "navigation": {
+    "FeaturedCards": {
       "type": "component",
       "repeatable": false,
-      "component": "header.navigation",
+      "component": "global.card-wrapper",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "announcementFragment": {
+    "TextBlock2": {
       "type": "component",
       "repeatable": false,
       "component": "global.text-block",
@@ -81,6 +71,51 @@
           "localized": true
         }
       }
+    },
+    "DetailedNavbar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.detailed-navbar",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "InsightsCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.card-wrapper",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "employees": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::employee.employee",
+      "mappedBy": "services_page"
+    },
+    "WebTile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.web-tile",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::services-page.services-page"
     }
   }
 }

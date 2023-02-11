@@ -4,43 +4,83 @@
   "info": {
     "singularName": "issue",
     "pluralName": "issues",
-    "displayName": "Issue"
+    "displayName": "Issue",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "HeroSection": {
       "type": "component",
       "repeatable": false,
-      "component": "global.hero-section"
+      "component": "global.hero-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Featured": {
       "type": "component",
       "repeatable": false,
-      "component": "global.card-wrapper"
+      "component": "global.card-wrapper",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "TextBlock": {
       "type": "component",
       "repeatable": false,
-      "component": "global.text-block"
+      "component": "global.text-block",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "navigation": {
       "type": "component",
       "repeatable": false,
-      "component": "header.navigation"
+      "component": "header.navigation",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "announcementFragment": {
       "type": "component",
       "repeatable": false,
-      "component": "global.text-block"
+      "component": "global.text-block",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

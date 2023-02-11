@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_explorer_tabs",
+  "info": {
+    "displayName": "ExplorerTab"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "panelTitle": {
+      "type": "string"
+    },
+    "panelDescription": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.sublink"
+    }
+  }
+}

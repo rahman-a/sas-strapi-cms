@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_team_presentations",
+  "info": {
+    "displayName": "Team Presentation"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.team-member",
+      "max": 3
+    }
+  }
+}

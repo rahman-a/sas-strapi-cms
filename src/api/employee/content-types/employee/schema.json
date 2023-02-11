@@ -71,6 +71,24 @@
       "relation": "manyToOne",
       "target": "api::office.office",
       "inversedBy": "staff"
+    },
+    "industries_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::industries-page.industries-page",
+      "inversedBy": "employees"
+    },
+    "services_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::services-page.services-page",
+      "inversedBy": "employees"
+    },
+    "issues_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::issues-page.issues-page",
+      "inversedBy": "employees"
     }
   }
 }

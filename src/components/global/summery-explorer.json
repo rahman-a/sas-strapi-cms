@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_summery_explorers",
+  "info": {
+    "displayName": "Summery Explorer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.explorer-tab"
+    }
+  }
+}

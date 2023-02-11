@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "services",
+  "collectionName": "press_rooms",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Service",
-    "description": ""
+    "singularName": "press-room",
+    "pluralName": "press-rooms",
+    "displayName": "Press Room"
   },
   "options": {
     "draftAndPublish": true
@@ -17,70 +16,50 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
     "description": {
-      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "text"
     },
     "HeroSection": {
       "type": "component",
       "repeatable": false,
-      "component": "global.hero-section",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "global.hero-section"
     },
-    "Featured": {
+    "FeaturedCards": {
       "type": "component",
       "repeatable": false,
-      "component": "global.card-wrapper",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "global.card-wrapper"
     },
-    "TextBlock": {
+    "pressCards": {
       "type": "component",
       "repeatable": false,
-      "component": "global.text-block",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
-    },
-    "navigation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "header.navigation",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "announcementFragment": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.text-block",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      },
+      "component": "global.card-wrapper"
     }
   }
 }

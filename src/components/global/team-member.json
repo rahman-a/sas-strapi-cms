@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_team_members",
+  "info": {
+    "displayName": "Team Member",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "string"
+    }
+  }
+}

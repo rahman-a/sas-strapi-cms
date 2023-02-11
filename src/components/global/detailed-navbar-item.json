@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_detailed_navbar_items",
+  "info": {
+    "displayName": "DetailedNavbarItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    },
+    "DetailedSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.text-block"
+    }
+  }
+}

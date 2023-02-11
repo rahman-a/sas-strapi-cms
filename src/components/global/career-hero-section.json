@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_global_career_hero_sections",
+  "info": {
+    "displayName": "Career Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "subtitleBold": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    }
+  }
+}

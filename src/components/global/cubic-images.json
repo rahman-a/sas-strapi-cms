@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_cubic_images",
+  "info": {
+    "displayName": "Cubic Images"
+  },
+  "options": {},
+  "attributes": {
+    "firstImage": {
+      "type": "string"
+    },
+    "secondImage": {
+      "type": "string"
+    },
+    "thirdImage": {
+      "type": "string"
+    },
+    "fourthImage": {
+      "type": "string"
+    }
+  }
+}

@@ -10,17 +10,31 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "mainLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.sublink"
+      "component": "ui.sublink",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "legalLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.sublink"
+      "component": "ui.sublink",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "logo": {
       "type": "media",
@@ -31,7 +45,12 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

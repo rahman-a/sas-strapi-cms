@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_tabbed_navbar_items",
+  "info": {
+    "displayName": "TabbedNavbarItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.sublink"
+    }
+  }
+}
